@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+* {
+  font-family: Source Sans Pro;
+}
+
+body {
+  background: linear-gradient(90deg, #12326e 0%, #03194d 100%);
+
+  --color-main: #12326e;
+  --color-button-main: #0ea6ce;
+}
